@@ -7,9 +7,9 @@ int main()
 
     Harl X;
     X.complain("DEBUG");
-    // X.complain("INFO");
-    // X.complain("WARNING");
-    // X.complain("ERROR");
-    //X.complain("level");
+    X.complain("INFO");
+    X.complain("WARNING");
+    X.complain("ERROR");
+    X.complain("level");
     return (0);
 }

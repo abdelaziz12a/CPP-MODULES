@@ -1,5 +1,6 @@
 
-#include "program.hpp"
+#include <iostream>
+#include <fstream>
 
 void MyReplace(std::string *line, std::string Old, std::string New)
 {
