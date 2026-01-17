@@ -3,7 +3,6 @@
 
 int main()
 {
-     //* = NULL but in ref can not = NULL;
     std::string s = "HI THIS IS BRAIN";
     std::string *stringPTR = &s;
     std::string &stringREF = s;

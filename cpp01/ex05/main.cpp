@@ -3,10 +3,8 @@
 
 int main()
 {
-    // DEBUG INFO WARNING ERROR
-
     Harl X;
-    X.complain("DEBUG");
+    X.complain("DEBG");
     X.complain("INFO");
     X.complain("WARNING");
     X.complain("ERROR");

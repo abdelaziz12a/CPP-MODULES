@@ -4,6 +4,7 @@
 int main()
 {
     int N = 5;
+    
     Zombie *z =  zombieHorde(N, "gon");
     if (!z)
     {
