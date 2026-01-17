@@ -1,4 +1,3 @@
-
 NAME = fixed
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
@@ -8,12 +7,13 @@ OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
 
-%.o: %.cpp Fixed.hpp
-	$(COM) $(CXXFLAGS) -c $< -o $@
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ) 
 	$(COM) $(CXXFLAGS) $(OBJ) -o $(NAME)
 
+%.o: %.cpp Fixed.hpp
+	$(COM) $(CXXFLAGS) -c $< -o $@
+	
 clean:
 	rm -f $(OBJ)
 
