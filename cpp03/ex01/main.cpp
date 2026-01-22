@@ -16,6 +16,7 @@ int main()
         std::cout << "\n--- End of scope (destructors will be called in reverse) ---" << std::endl;
     }
     
+
     // std::cout << "\n========== Test 2: ScavTrap vs ClapTrap attacks ==========" << std::endl;
     // ClapTrap clap1("Clappy");
     // ScavTrap scav1("Scavvy");

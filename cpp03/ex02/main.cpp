@@ -14,32 +14,32 @@ int main()
         std::cout << "\n--- End of scope ---" << std::endl;
     }
     
-    std::cout << "\n========== Test 2: FragTrap special ability ==========" << std::endl;
-    FragTrap frag1("Friendly");
-    frag1.highFivesGuys();
-    frag1.attack("Enemy");
-    frag1.highFivesGuys();
+    // std::cout << "\n========== Test 2: FragTrap special ability ==========" << std::endl;
+    // FragTrap frag1("Friendly");
+    // frag1.highFivesGuys();
+    // frag1.attack("Enemy");
+    // frag1.highFivesGuys();
     
-    std::cout << "\n========== Test 3: All three types ==========" << std::endl;
-    ClapTrap clap("Clappy");
-    ScavTrap scav("Scavvy");
-    FragTrap frag2("Fraggy");
+    // std::cout << "\n========== Test 3: All three types ==========" << std::endl;
+    // ClapTrap clap("Clappy");
+    // ScavTrap scav("Scavvy");
+    // FragTrap frag2("Fraggy");
     
-    std::cout << "\n--- Attacks comparison ---" << std::endl;
-    clap.attack("Target");   // 0 damage
-    scav.attack("Target");   // 20 damage
-    frag2.attack("Target");  // 30 damage
+    // std::cout << "\n--- Attacks comparison ---" << std::endl;
+    // clap.attack("Target");   // 0 damage
+    // scav.attack("Target");   // 20 damage
+    // frag2.attack("Target");  // 30 damage
     
-    std::cout << "\n--- Special abilities ---" << std::endl;
-    scav.guardGate();
-    frag2.highFivesGuys();
+    // std::cout << "\n--- Special abilities ---" << std::endl;
+    // scav.guardGate();
+    // frag2.highFivesGuys();
     
-    std::cout << "\n========== Test 4: FragTrap durability ==========" << std::endl;
-    FragTrap tank("Tank");
-    tank.takeDamage(50);
-    tank.beRepaired(30);
-    tank.takeDamage(50);
-    tank.attack("Enemy");
+    // std::cout << "\n========== Test 4: FragTrap durability ==========" << std::endl;
+    // FragTrap tank("Tank");
+    // tank.takeDamage(50);
+    // tank.beRepaired(30);
+    // tank.takeDamage(50);
+    // tank.attack("Enemy");
     
     std::cout << "\n========== End of tests ==========" << std::endl;
     return 0;
