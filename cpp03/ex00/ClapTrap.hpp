@@ -21,7 +21,6 @@ class ClapTrap
         ClapTrap(const ClapTrap& other);               
         ClapTrap& operator=(const ClapTrap& other);
 
-        ClapTrap& operator=(const ClapTrap& other);
 
         void attack(const std::string& target);
         void takeDamage(unsigned int amount);
@@ -29,12 +28,6 @@ class ClapTrap
 
 
         ~ClapTrap();
-
-
-
 };
-
-
-
 
 #endif
