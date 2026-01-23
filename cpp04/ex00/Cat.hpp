@@ -4,13 +4,16 @@
 #include <iostream>
 #include "Animal.hpp"
 
-class Dog : public Animal
+class Cat : public Animal
 {
-    protected:
-        
-        
+    //        
     public:
-        //costructers;
+        Cat();
+        Cat(const Cat& other);
+        Cat &operator=(const Cat&other);
+
+        void makeSound() const ; 
+        ~Cat();
     
 };
 
