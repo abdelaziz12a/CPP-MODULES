@@ -1,12 +1,17 @@
 #include "Animal.hpp"
+#include "WrongAnimal.hpp"
+#include "WrongCat.hpp"
 #include "Dog.hpp"
 #include "Cat.hpp"
 
 int main()
 {
-    Cat k;
-    std::cout << "type of k is : " << k.getType() << std::endl;
-    k.makeSound();
+    WrongAnimal* wa = new WrongCat();
+    wa->makeSound(); // غادي يخرج: WrongAnimal makes an unknown sound...
+    delete wa;
+    // Dog k;
+    // std::cout << "type of k is : " << k.getType() << std::endl;
+    // k.makeSound();
     // const Animal* meta = new Animal();
     // const Animal* j = new Dog();
     // const Animal* i = new Cat();

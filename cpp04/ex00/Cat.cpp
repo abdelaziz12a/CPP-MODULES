@@ -23,9 +23,6 @@ void Cat::makeSound() const
      std::cout << "mee-OW !" << std::endl;
 }
 
-std::string Animal::getType() const {return type;}
-
-
 Cat::~Cat()
 {
      std::cout << "Cat destructor called" << std::endl;
