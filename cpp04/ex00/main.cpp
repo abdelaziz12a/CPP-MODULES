@@ -6,12 +6,6 @@
 
 int main()
 {
-    WrongAnimal* wa = new WrongCat();
-    wa->makeSound(); // غادي يخرج: WrongAnimal makes an unknown sound...
-    delete wa;
-    // Dog k;
-    // std::cout << "type of k is : " << k.getType() << std::endl;
-    // k.makeSound();
     // const Animal* meta = new Animal();
     // const Animal* j = new Dog();
     // const Animal* i = new Cat();
